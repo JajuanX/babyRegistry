@@ -164,7 +164,7 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr 30px;
   grid-gap: 20px;
-  width: 100vh;
+  width: 100vw;
   overflow-x: scroll;
 }
 
@@ -191,7 +191,7 @@ img{
   background-position: center;
   background-size: cover;
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 .storySection {
