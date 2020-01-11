@@ -202,14 +202,14 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  width: 100%;
+  width: 100vw;
   overflow-y: scroll;
 }
 
 .ourStorySection {
   display: grid;
   grid-template-rows: 1.7fr 30px 1fr 35px;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
