@@ -184,7 +184,7 @@ img{
 .faqSection {
   display: grid;
   grid-template-rows: 1.7fr 30px 1fr 35px;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
