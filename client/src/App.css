@@ -165,7 +165,7 @@ img{
   grid-template-columns: 1fr 1fr 30px;
   grid-gap: 20px;
   width: 100%;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .qaBox {
@@ -191,7 +191,7 @@ img{
   background-position: center;
   background-size: cover;
   height: 100%;
-  width: 100%;
+  width: 100vw;
 }
 
 .storySection {
@@ -200,7 +200,7 @@ img{
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   width: 100vw;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .ourStorySection {
