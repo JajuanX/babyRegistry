@@ -36,13 +36,12 @@ img{
   position: fixed;
   bottom: 50vh;
   right: 5px;
-  writing-mode: vertical-rl;
+  writing-mode: vertical-lr;
   text-orientation: upright;
   background-color: white;
   color: #5b7f54;
   border: 1px solid #5b7f54;
   border-radius: 10px;
-  text-align: center;
   display: grid;
   place-items: center;
   width: 25px;
