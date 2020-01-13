@@ -124,7 +124,7 @@ img{
   grid-template-rows: 40px 1fr 1fr;
   place-items: center;
   text-align: center;
-  height: 80%;
+  height: 100%;
   width: 80%;
   margin: 0 auto;
   font-size: .75rem;
