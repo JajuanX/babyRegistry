@@ -51,7 +51,7 @@ class Home extends React.Component {
           <div className="introPic">
           </div>
         </div>
-        <div id="babyRegistry" className="section" >
+        <div id="babyRegistry" className="registrySec" >
             <div className="registryInfo">
               <div className="title">
                 Select a Registry Below
@@ -98,9 +98,9 @@ class Home extends React.Component {
                 <strong>Date:</strong> February 16, 2020<br></br>
                 <strong>Time:</strong> 4:30 pm Sharp<br></br>
                 <strong>Theme:</strong> Garden Tea Party<br></br>
-                <strong>RSVP No Later Than:</strong> February 1, 2020<br></br>
+                <strong>RSVP No Later Than:</strong> February 3, 2020<br></br>
                 <strong>Dress Code:</strong> All White! Refer to <a href="#faq">FAQ</a> under "Dress Code"<br></br>
-                <strong>Location:</strong><a href="https://goo.gl/maps/GaD934j7B7tgEF8E9"> 2930 Hollywood Blvd, Hollywood FL, 33020</a><br></br>
+                <strong>Location: </strong>Jaycee Hall <a href="https://goo.gl/maps/GaD934j7B7tgEF8E9"> 2930 Hollywood Blvd, Hollywood FL, 33020</a>
               </div>
             </div>
             <div className="babyShowerLocation">
@@ -183,7 +183,7 @@ class Home extends React.Component {
               <br></br>
               <strong>Q. Baby Book Request?</strong>
               <br></br>
-              A: Pick any book, which ever you choose and sign the inside cover with a special note from you. Your book will be cherished by KJ in his or her library. <a href="https://www.chapters.indigo.ca/en-ca/list/find?ln=Thomas&fn=Kimavorna&id=2490586&type=reglinkshare">Click Here</a> for book ideas and books we're intered in.
+              A: Pick any baby book, which ever you choose and sign the inside cover with a special note from you. Your book will be cherished by KJ in his or her library. <a href="https://www.chapters.indigo.ca/en-ca/list/find?ln=Thomas&fn=Kimavorna&id=2490586&type=reglinkshare">Click Here</a> for book ideas and books we're intered in.
               <br></br>
               <strong>Q: Do I need to give the couple gift receipts for non registry gifts?</strong><br></br>
               A: Yes, in the event we receive duplicate items we can exchange it with you in mind.
