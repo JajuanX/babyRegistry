@@ -13,7 +13,7 @@ class Home extends React.Component {
     return (
       <div className="page">
         <div className="rsvp">
-          <a href="https://forms.gle/ySu8x5oZpXEHeXvZ9">RSVP NOW</a>
+          <a href="https://forms.gle/ySu8x5oZpXEHeXvZ9">RSVP <br></br>NOW</a>
         </div>
         <div id="babyShower" className="home section">
           <div>
