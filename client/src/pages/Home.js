@@ -51,17 +51,17 @@ class Home extends React.Component {
         <div id="babyRegistry" className="section" >
             <div className="registryInfo">
               <div className="title">
-                Select a registry Below
+                Select a Registry Below
               </div>
               <div>
-                To avoid additional shipping and handling fees for our US and Canadian family and friends. Gifts will be mailed to both addresses associated with each registry.
+                You have the easy part — simply head to the designated baby registry, and pick what you'd like to gift KJ. If they've opted into group gifting, you can go in on a gift with other friends or family members.
               </div>
               <div>
                 Please note that we are thankful for your love and support on our special day. To celebrate with a gift, we are registered at amazon!
                 <br></br>
                 <br></br>
                  <strong>
-                  Select a flag where you reside to view our registry.
+                  Select a flag where you reside.
                 </strong>
               </div>
             </div>
@@ -73,11 +73,15 @@ class Home extends React.Component {
                 </a>
               </div>
               <div className="flag">
-                <a href="https://www.amazon.ca/baby-reg/kim-thomas-jajuan-burton-april-2020-scarborough/25K4XXPCAWSX6">
+                <a href="https://www.amazon.ca/baby-reg/kim-thomas-jajuan-b-april-2020-scarborough/25K4XXPCAWSX6">
                   <img src={CAN} alt="Canada Flag"></img>
                   <h1>Canada</h1>
                 </a>
               </div>
+            </div>
+            <div className="also">
+              <strong>Gifts Outside Baby Registry:</strong> One small request, we hope its not hard, please bring a book instead of a card with your non registry gifts.
+              Please refer to <a href="#faq">FAQ</a> under “Registry”
             </div>
         </div>
         <div id="babyShowerDetails" className="section">
@@ -121,70 +125,66 @@ class Home extends React.Component {
             <div className="qaBox">
               <p className="faqTitle">Baby Shower?</p>
               <br></br>
-              Q: What’s the sex of the baby?<br></br>
+              <strong>Q: What’s the sex of the baby?</strong><br></br>
               A:  	The reveal will be on the day of birth. Sorry!<br></br>
-              Q: Do we have a name for the baby?<br></br>
+              <strong>Q: Do we have a name for the baby?</strong><br></br>
               A: For now it is KJ (Kim & Jajuan), but feel free to add names to the suggestion box at the shower. Please only provide names that begin with the letter “K” or “J”.<br></br>
-              Q: What is the expected due date?<br></br>
+              <strong>Q: What is the expected due date?</strong><br></br>
               A: April 2020<br></br>
-              Q: Is this a Co-Ed shower?<br></br>
+              <strong>Q: Is this a Co-Ed shower?</strong><br></br>
               A: Yes, both showers are Co-Ed.<br></br>
-              Q: When should I RSVP?<br></br>
+              <strong>Q: When should I RSVP?</strong><br></br>
               A:  	Florida: No later than February 1, 2020
      	        Toronto:  No later than February 29, 2020<br></br>
-              Q:  Where is the event located?<br></br>
-              A:  	Florida/ Toronto: Please refer to Baby Shower Section.<br></br>
-              Q: Will there be Alcohol?<br></br>
-              A:  	Florida: Yes, there will be a themed punch.
-             	Toronto: A champagne toast only.<br></br>
-              Q: Will food be served?<br></br>
+              <strong>Q: Will food be served?</strong><br></br>
              	A: Yes, both events will have appetizers and dinner served.<br></br>
-              Q: Can I bring my child(ren)?<br></br>
+              <strong>Q: Can I bring my child(ren)?</strong><br></br>
               A:  	Yes, both events welcome children. Children will participate only in child activities.<br></br>
             </div>
             <div className="qaBox">
               <p className="faqTitle">Dress code?</p>
               <br></br>
-              A:  	 Yes! However, there is a special request for the Florida baby shower please see below.
-              Toronto: Yellow and White.<br></br>
+              <strong>A:  	 Yes! However, there is a special request for the Florida baby shower please see below.
+              </strong>
+              <br></br>
+              <strong>Toronto:</strong> Yellow and White.<br></br>
 
-              Florida:  Wear ALL WHITE to the shower.<br></br>
-              Women:<br></br>
-              Attire:<br></br>
+              <strong>Florida:</strong> Tea parties are a fun time to dress up, so embrace the chance to wear your Sunday best.  This is an all white affair.<br></br>
+              <strong>Women Attire Example:</strong><br></br>
               Tea parties are a fun time to dress up, so embrace the chance to wear your Sunday best.  This is an all white affair.<br></br>
-              Tea-length dresses typically fall midway between the knee and ankle, but just above or below the knee is also an acceptable look. Avoid very short dresses, as a tea party is not the most appropriate occasion for a miniskirt.
-              A sundress is fine<br></br>
+              Tea-length dresses/skirts typically fall midway between the knee and ankle.
+              A sundress is fine, and pants are also appropriate<br></br>
 
-              Wear a fun hat if you want to (Optional):
-              Ladies traditionally wear hats to tea parties. Hats can range from elaborate wide-brimmed sun hats to simple cloches, or you can even opt to wear a pretty fascinator or hair flower.<br></br>
+              Ladies traditionally wear hats to tea parties (optional). Hats can range from elaborate wide-brimmed sun hats to simple cloches, or you can even opt to wear a pretty fascinator or hair flower-add.<br></br>
 
-              Men:<br></br>
-              Attire:<br></br>
+              <strong>Men Attire Example:</strong><br></br>
               A pair of khakis or white jeans with a white collared or polo shirt is appropriate. A blazer is optional.<br></br>
 
-              Wear a fun hat if you want to (Optional).
-              Gentlemen both traditionally wear hats to tea parties. Coordinate your hat with your outfit. A fedora looks sharp with a masculine look.<br></br>
+              Gentlemen both traditionally wear hats to tea parties (optional). Coordinate your hat with your outfit. A fedora looks sharp with a masculine look.<br></br>
             </div>
             <div className="qaBox">
               <p className="faqTitle">Registry?</p>
                 <br></br>
-              Q: Why should I use the registry?<br></br>
-              A:  	A baby registry is a list of items at a specific store that the new parents would like to receive as gifts. This helps ensure that the couple receives gifts that go with their nursery decor and that they DO not receive duplicate items.<br></br>
-
-              Q: Why did Kim and Jajuan choose Amazon?<br></br>
-              A:  	You have the easy part — simply head to the designated baby registry, and pick what you'd like to gift KJ. If they've opted into group gifting, you can go in on a gift with other friends or family members.<br></br>
-              Q: Why are there two different registries?<br></br>
-              A:
-              If you don't have Amazon Prime, you'll have to spend at least $25 USD ($35 CAD) to be eligible for free shipping. If you have Prime, you'll get the regular, two-day free shipping rates you've come to know and love.<br></br>
-              Q: Can I bring a gift outside of the registry?<br></br>
-              A:  	 Yes, but we encourage our guests to order from the registry. If you would be so kind, please bring a baby book that you have signed instead of a baby shower card when giving a gift card. We accept clothes that are gender-neutral colours (i.e. grey, yellow, white, and green).<br></br>
-              Q: Do I need to give the couple gift receipts?<br></br>
+              <strong>Q: Why should I use the registry?</strong>
+              <br></br>
+              A:  	A baby registry is a list of items at a specific store that the new parents would like to receive as gifts. This helps ensure that the couple receives gifts that go with their nursery decor and that they DO not receive duplicate items.
+              <br></br>
+              <strong>Q: Why are there two different registries?</strong>
+              <br></br>
+              A: To avoid additional shipping and handling fees for our US and Canadian family and friends. Gifts will be mailed to both addresses associated with each registry.
+              <br></br>
+              <strong>Q: Can I bring a gift outside of the registry?</strong>
+              <br></br>
+              A: Yes! Monetary Gifts/ Gift Cards: Would you be so kind to insert your gift in a baby book that you have signed instead of a baby shower card, we are building KJs library. <a href="https://www.chapters.indigo.ca/en-ca/list/find?ln=Thomas&fn=Kimavorna&id=2490586&type=reglinkshare">Click Here</a> to contribute to KJ's library!
+              Clothes: We accept clothes that are gender-neutral colours (i.e. grey, yellow, white, and green) sizes from 0-3 Months up to 12 Months.
+              <br></br>
+              <strong>Q: Do I need to give the couple gift receipts for non registry gifts?</strong><br></br>
               A: Yes, in the event we receive duplicate items we can exchange it with you in mind.
             </div>
           </div>
           <div style={{textAlign:'center'}}>
             Swipe
-            <span role="img">👉🏿</span>
+            <span role="img">&nbsp;👉🏿</span>
           </div>
         </div>
 
@@ -200,11 +200,11 @@ class Home extends React.Component {
             </div>
             <div className="storyText">
               After the trip Kim and Jajuan remained in contact. Several weeks after, Jajuan decided to travel to Toronto, stepping out of their comfort zones, thanks to their connection and faith. After that first visit they knew it was only a matter of time. Frequent flyer miles started to accumulate because of the frequent visits between Florida and Toronto. During a visit to Florida there was a, “Would you be my girlfriend?” sign awaiting Kim as she walked outside to arrivals, and the rest was history.
-              <br></br>
-              <br></br>
-              Being far from each other is definitely a challenge, but it’s overcoming such obstacles that make their love story special, memorable and treasured. If the person is right for you, the sacrifice will be well worth it.
             </div>
             <div className="storyText">
+              Being far from each other is definitely a challenge, but it’s overcoming such obstacles that make their love story special, memorable and treasured. If the person is right for you, the sacrifice will be well worth it.
+              <br></br>
+              <br></br>
               Today, the couple is getting ready to welcome their first child KJ. Carrying a baby is the most rewarding experience a woman can enjoy, and they are excited to share this part of their journey with you.
 
               “For I know the plans I have for you,” declares the LORD, “plans to prosper you and not to harm you, plans to give you hope and a future.” – Jeremiah 29:11
@@ -212,7 +212,7 @@ class Home extends React.Component {
           </div>
           <div style={{textAlign:'center'}}>
             Swipe
-            <span role="img">👉🏿</span>
+            <span role="img">&nbsp;👉🏿</span>
           </div>
         </div>
       </div>

@@ -26,7 +26,7 @@ body {
 }
 
 img{
-  width: 100%;
+  width: 60%;
 }
 
 .title {
@@ -38,7 +38,7 @@ img{
   background-image: url('./juanKim.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 
 .flag {
@@ -50,7 +50,8 @@ img{
   display: grid;
   grid-template-rows: 1fr 1fr;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  margin-bottom: 10vh;
 }
 
 #babyShower {
@@ -73,6 +74,7 @@ img{
 
 .introStory {
   width: 80%;
+  margin: 0 auto;
 }
 
 .introButtons {
@@ -109,7 +111,7 @@ img{
   background-image: url('./kimJuan2.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
   width: 100%;
 }
@@ -120,7 +122,8 @@ img{
   place-items: center;
   text-align: center;
   height: 80%;
-  margin-top: 40px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .registryDetails {
@@ -131,7 +134,14 @@ img{
 
 .registryText {
   text-align: left;
-  width: 100%;
+  width: 80%;
+}
+
+.also {
+  font-size: .75rem;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .flagBox {
@@ -139,6 +149,7 @@ img{
   grid-template-rows: 1fr 1fr;
   place-items: center;
   width: 80%;
+  height: 40%;
   font-size: .5rem;
   margin: 0 auto;
   text-align: center;
@@ -154,7 +165,7 @@ img{
   background-image: url('./kimJuan3.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
   width: 100%;
 }
@@ -164,8 +175,10 @@ img{
   display: grid;
   grid-template-columns: 1fr 1fr 30px;
   grid-gap: 20px;
-  width: 100vw;
+  width: 90vw;
   overflow-x: scroll;
+  margin-bottom: 10vh;
+  margin: 0 auto;
 }
 
 .qaBox {
@@ -180,38 +193,40 @@ img{
 
 .faqSection {
   display: grid;
-  grid-template-rows: 1.7fr 30px 1fr 35px;
+  grid-template-rows: 1fr 30px 1fr 15px;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
+  margin-bottom: 10vh;
 }
 
 .faqPic {
   background-image: url('./kimJuan4.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
   width: 100vw;
 }
 
 .storySection {
-  font-size: .80rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  width: 100vw;
+  width: 80vw;
   overflow-x: scroll;
+  margin: 0 auto;
 }
 
 .ourStorySection {
   display: grid;
-  grid-template-rows: 1.7fr 30px 1fr 35px;
+  grid-template-rows: 1.5fr 30px 1fr 15px;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
+  margin-bottom: 10vh;
 }
 
 .storyText {
-  height: 30vh;
+  font-size: .80rem;
   width: 80vw;
 }
 
@@ -219,7 +234,7 @@ img{
   background-image: url('./Kimjuan5.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 100%;
   width: 100%;
 }
