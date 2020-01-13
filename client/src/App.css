@@ -32,6 +32,22 @@ img{
   width: 60%;
 }
 
+.rsvp {
+  position: fixed;
+  bottom: 50vh;
+  right: 5px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: white;
+  color: #5b7f54;
+  border: 1px solid #5b7f54;
+  border-radius: 10px;
+}
+
+.rsvp > a {
+  text-decoration: none;
+}
+
 .title {
   text-align: center;
   font-size: 1.5rem;

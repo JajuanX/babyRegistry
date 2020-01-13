@@ -12,6 +12,9 @@ class Home extends React.Component {
   render() {
     return (
       <div className="page">
+        <div className="rsvp">
+          <a href="https://forms.gle/ySu8x5oZpXEHeXvZ9">RSVP NOW</a>
+        </div>
         <div id="babyShower" className="home section">
           <div>
             <div className="introText">
@@ -188,7 +191,7 @@ class Home extends React.Component {
           </div>
           <div style={{textAlign:'center'}}>
             Swipe
-            <span role="img">&nbsp;👉🏿</span>
+            <span role="img" aria-label="point right">&nbsp;👉🏿</span>
           </div>
         </div>
 
@@ -216,7 +219,7 @@ class Home extends React.Component {
           </div>
           <div style={{textAlign:'center'}}>
             Swipe
-            <span role="img">&nbsp;👉🏿</span>
+            <span role="img" aria-label="point right">&nbsp;👉🏿</span>
           </div>
         </div>
       </div>
