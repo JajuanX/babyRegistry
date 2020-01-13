@@ -54,7 +54,7 @@ class Home extends React.Component {
                 Select a Registry Below
               </div>
               <div>
-                You have the easy part — simply head to the designated baby registry, and pick what you'd like to gift KJ. If they've opted into group gifting, you can go in on a gift with other friends or family members.
+                You have the easy part — simply head to the designated baby registry, and pick what you'd like to gift KJ. We have opted into group gifting, you can go in on a gift with other friends or family members.
               </div>
               <div>
                 Please note that we are thankful for your love and support on our special day. To celebrate with a gift, we are registered at amazon!
@@ -96,7 +96,7 @@ class Home extends React.Component {
                 <strong>Time:</strong> 4:30 pm Sharp<br></br>
                 <strong>Theme:</strong> Garden Tea Party<br></br>
                 <strong>RSVP No Later Than:</strong> February 1, 2020<br></br>
-                <strong>Dress Code:</strong> ALL WHITE SEE FAQ SECTION<br></br>
+                <strong>Dress Code:</strong> All White! Refer to <a href="#faq">FAQ</a> under "Dress Code"<br></br>
                 <strong>Location:</strong><a href="https://goo.gl/maps/GaD934j7B7tgEF8E9"> 2930 Hollywood Blvd, Hollywood FL, 33020</a><br></br>
               </div>
             </div>
@@ -151,9 +151,8 @@ class Home extends React.Component {
 
               <strong>Florida:</strong> Tea parties are a fun time to dress up, so embrace the chance to wear your Sunday best.  This is an all white affair.<br></br>
               <strong>Women Attire Example:</strong><br></br>
-              Tea parties are a fun time to dress up, so embrace the chance to wear your Sunday best.  This is an all white affair.<br></br>
               Tea-length dresses/skirts typically fall midway between the knee and ankle.
-              A sundress is fine, and pants are also appropriate<br></br>
+              A maxi dress is fine, and pants are also appropriate.<br></br>
 
               Ladies traditionally wear hats to tea parties (optional). Hats can range from elaborate wide-brimmed sun hats to simple cloches, or you can even opt to wear a pretty fascinator or hair flower-add.<br></br>
 
@@ -167,7 +166,7 @@ class Home extends React.Component {
                 <br></br>
               <strong>Q: Why should I use the registry?</strong>
               <br></br>
-              A:  	A baby registry is a list of items at a specific store that the new parents would like to receive as gifts. This helps ensure that the couple receives gifts that go with their nursery decor and that they DO not receive duplicate items.
+              A: A baby registry is a list of items at a specific store that the new parents would like to receive as gifts. This helps ensure that the couple receives gifts that go with their nursery decor and that they DO not receive duplicate items.
               <br></br>
               <strong>Q: Why are there two different registries?</strong>
               <br></br>
@@ -175,8 +174,13 @@ class Home extends React.Component {
               <br></br>
               <strong>Q: Can I bring a gift outside of the registry?</strong>
               <br></br>
-              A: Yes! Monetary Gifts/ Gift Cards: Would you be so kind to insert your gift in a baby book that you have signed instead of a baby shower card, we are building KJs library. <a href="https://www.chapters.indigo.ca/en-ca/list/find?ln=Thomas&fn=Kimavorna&id=2490586&type=reglinkshare">Click Here</a> to contribute to KJ's library!
-              Clothes: We accept clothes that are gender-neutral colours (i.e. grey, yellow, white, and green) sizes from 0-3 Months up to 12 Months.
+              A: Yes! We accept gift cards,monetary gifts, and clothes.
+              <br></br>
+              Clothes: Gender-neutral colours (i.e. grey, yellow, white, and green) sizes from 0-3 Months up to 12 Months.
+              <br></br>
+              <strong>Q. Baby Book Request?</strong>
+              <br></br>
+              A: Pick any book, which ever you choose and sign the inside cover with a special note from you. Your book will be cherished by KJ in his or her library. <a href="https://www.chapters.indigo.ca/en-ca/list/find?ln=Thomas&fn=Kimavorna&id=2490586&type=reglinkshare">Click Here</a> for book ideas and books we're intered in.
               <br></br>
               <strong>Q: Do I need to give the couple gift receipts for non registry gifts?</strong><br></br>
               A: Yes, in the event we receive duplicate items we can exchange it with you in mind.
