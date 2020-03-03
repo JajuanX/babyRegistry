@@ -12,9 +12,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="page">
-        <div className="rsvp">
-          <a href="https://forms.gle/ySu8x5oZpXEHeXvZ9">RSVP <br></br>NOW</a>
-        </div>
+
         <div id="babyShower" className="home section">
           <div>
             <div className="introText">
@@ -111,7 +109,7 @@ class Home extends React.Component {
                 <strong>Theme:</strong> The Golden Child<br></br>
                 <strong>RSVP No Later Than:</strong> February 29, 2020<br></br>
                 <strong>Dress Code:</strong> White and Yellow Affair<br></br>
-                <strong>Location:</strong> TBA<br></br>
+                <strong>Location:</strong> <a href="https://www.google.com/maps/place/33+Coatsworth+Crescent,+Toronto,+ON+M4C+5P9,+Canada/@43.6791702,-79.3201054,17z/data=!4m2!3m1!1s0x89d4cc71a3fbcd53:0xeecb1a4c5dfa4142">33 Coatsworth Crescent, Toronto, ON M4C</a><br></br>
               </div>
             </div>
           </div>
